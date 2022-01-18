@@ -15,7 +15,7 @@ def test_compute_correlations():
 
 
 def test_compute_ratio():
-    df_test = pd.DataFrame(np.array([[1, 2, 3, 4, 5], [11, 12, 13, 14, 15]]))
+    df_test = pd.DataFrame(np.array([[1, 2, 3, 4, 5], [11, 12, 0, 14, 15]]))
     ratio = compute_ratio(
         df=df_test, numerator_column_name=0, denominator_column_name=1
     )
