@@ -10,13 +10,13 @@
         + climate_precip.csv
         + climate_temp.csv
     + __init__.py
-    + compute.py (計算を行う関数を管理するモジュール)
-    + main.py (メインで実行するファイル)
-    + monthly_data.csv (問題文で出力を要求されていたcsvファイル)
-    + preprocessing.py (データフレームの処理を管理するモジュール)
-    + print_.py (コンソールに出力を行う関数を管理するモジュール)
+    + compute.py (Module to manage functions that perform calculations.)
+    + main.py (Main file)
+    + monthly_data.csv (The csv file that was requested to be output in the problem statement)
+    + preprocessing.py (Module that manages the processing of data frames)
+    + print_.py (Module to manage functions that output to the console)
     
-+ /tests (pytestを実行するフォルダ)
++ /tests (Folder to run pytest)
     + /__pyache__
         + __init__.cpython-38.pyc
         + test_compute.cpython-38-pytest-6.2.5.pyc
@@ -24,8 +24,8 @@
         + test_submit.cpython-38-pytest-6.2.5.pyc
     + __init__.py
     + test.csv
-    + test_compute.py (computeの関数のテストを行うモジュール)
-    + test_preprocessing.py (preprocessingの関数のテストを行うモジュール)
+    + test_compute.py (Module to test functions in compute.py.)
+    + test_preprocessing.py (Module to test functions in preprocessing.py.)
     + test_submit.py
 + poetry.lock
 + pyproject.toml
